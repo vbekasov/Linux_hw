@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PTH="/home/user/start/";
-mkdir -p $PTH
+mkdir -p $PTH;
 touch $PTH"1.txt";
 echo "Start" >> $PTH"1.txt";
 date >> $PTH"1.txt";
