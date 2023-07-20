@@ -1,0 +1,10 @@
+Do 20. Jul 13:40:16 CEST 2023
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3       457G  121G  314G  28% /
+ 1020  cat nf
+ 1021  rm nf
+ 1022  touch nf && date >> nf && df -h / >> nf
+ 1023  cat nf
+ 1024  history | tail -5 >> nf && cat nf
+GenuineIntel
+294
