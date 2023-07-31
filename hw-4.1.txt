@@ -1,0 +1,8 @@
+
+   0 vi /tmp/file.txt
+   1 ls /tmp/
+   2 df -h | head -n 3 >> /tmp/file.txt && cat /tmp/file.txt
+   3 chmod g+w /tmp/file.txt && ls -l /tmp/file.txt
+   4 chmod u-r /tmp/file.txt && ls -l /tmp/file.txt
+   5 chmod ugo+x /tmp/file.txt && ls -l /tmp/file.txt
+   6 history >> /tmp/hw-4.1.txt && cat /tmp/hw-4.1.txt
